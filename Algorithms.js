@@ -27,7 +27,23 @@
 
 // PALINDROME
 
-const palindrome = word =>
-  word === word.split("").reduce((acc, char) => char + acc, "")
+// const palindrome = word =>
+//   word === word.split("").reduce((acc, char) => char + acc, "")
 
-palindrome("racecar")
+// palindrome("racecar")
+
+// REVERSE AN INTEGER
+
+// function reverseInt(n) {
+//   const str = String(Math.abs(n))
+//   return (
+//     Math.sign(n) *
+//     Number(
+//       str
+//         .split("")
+//         .reverse()
+//         .join("")
+//     )
+//   )
+// }
+// reverseInt(501)
